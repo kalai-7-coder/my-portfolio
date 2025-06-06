@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 100px;    /* bigger padding */
+  background: #f8f9fa;
+  flex-wrap: wrap;
+  gap: 60px;             /* more gap between image and text */
+  min-height: 80vh;      /* occupy most of the viewport height */
+}
+
+.hero-image {
+  width: 550px;          /* bigger image */
+  height: 550px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid #333;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  flex-shrink: 0;        /* prevent shrinking */
+}
+
+.hero-text {
+  flex: 1 1 500px;
+  min-width: 400px;
+  max-width: 700px;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 56px;       /* much bigger heading */
+  font-weight: 900;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+.hero-text p {
+  font-size: 48px;       /* bigger paragraph */
+  color: #444;
+  margin-top: 10px;
+  line-height: 1.5;
+}
