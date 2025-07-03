@@ -14,7 +14,7 @@
 .contact p {
   font-size: 18px;
   margin-bottom: 30px;
-  color: #ccc;
+  color: whitesmoke;
 }
 
 .contact form {
@@ -37,14 +37,14 @@
 }
 
 .contact textarea:focus {
-  box-shadow: 0 0 0 2px #00bfff;
+  box-shadow: 0 0 0 2px #ffcc00; /* Yellow focus ring */
 }
 
 .contact button {
   margin-top: 20px;
   padding: 12px 30px;
   font-size: 16px;
-  background-color: #00bfff;
+  background-color: #ffcc00;
   color: #000;
   border: none;
   border-radius: 6px;
